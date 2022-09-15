@@ -1,0 +1,33 @@
+body {
+    background-color:#1b1b32;
+    color:#f5f6f7;
+}
+label {
+    display: block;
+    padding-bottom:15px;
+}
+table {
+    border: 1px solid white;
+}
+th {
+    width:200px;
+}
+a {
+    font-size:30px;
+    color:white;
+}
+.container {
+    margin-right: auto;
+}
+h1{
+    background-color:green;
+}
+.grade {
+     margin-left:118px;
+}
+.lang {
+    margin-left:35px;
+}
+.wid {
+    width:300px;
+}

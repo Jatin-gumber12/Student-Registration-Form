@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <p>Name of the Applicant:</p>
+    <form action="">
+        <label for="first">First Name: <input type="text" id="first" placeholder="Jatin" /></label>
+        <label for="last">Last Name: <input type="text" id="last" placeholder="Gumber" /></label>
+        <label for="DOB">Date of Birth: <input type="date"></label>
+        <label for="Gender">Gender: <input type="radio" id="Male" name=
+            "Gender" value="male" />Male
+        <input type="radio" id="Female" name="Gender" value="female" /> Female
+        </label>
+        <label for="Grade">Grade: <input type="text" class="grade" id="grade" placeholder="A+" /></label>
+        <label for="lang">Languages Spoken: <input type="text" class="lang" id="lang" /></label>
+        <label for="Sibling">Details of Siblings: </label>
+        <textarea name="Sibling" id="Sibling" cols="30" rows="2"></textarea>
+        <label for="Info">Parent's Information: </label>
+        <table>
+            <tr>
+                <th>Father's Name </th>
+                <td><input type="text" class="wid" placeholder="Enter father's Name" /></td>
+            </tr>
+            <tr>
+                <th>Father's Occupation </th>
+                <td><input type="text"class="wid" /></td>
+            </tr>
+            <tr>
+                <th>Father's Email </th>
+                <td><input type="email" class="wid" /></td>
+            </tr>
+            <tr>
+                <th>Father's Phone number </th>
+                <td><input type="tel" name="phone" id="phone" class="wid" /></td>
+            </tr>
+            <tr>
+                <th>Mother's Occupation </th>
+                <td><input type="text" name="Occupation" class="wid" /></td>
+            </tr>
+        </table><br/><br/>
+        <table>
+            <tr>
+                <th>Mother's Name </th>
+                <td><input type="text" class="wid" placeholder="Enter Mother's Name" /></td>
+            </tr>
+            <tr>
+                <th>Mother's Occupation </th>
+                <td><input type="text" class="wid" /></td>
+            </tr>
+            <tr>
+                <th>Mother's Email </th>
+                <td><input type="email" class="wid" /></td>
+            </tr>
+            <tr>
+                <th>Mother's Phone number </th>
+                <td><input type="tel" name="phone" class="wid" id="phone" /></td>
+            </tr>
+            <tr>
+                <th>Mother's Occupation </th>
+                <td><input type="text" name="Occupation" class="wid" /></td>
+            </tr>
+        </table><br>
+        <label for="Address">Address</label>
+        <table>
+            <tr>
+                <th style="background-color:blue;width:98vmax;font-size:25px;text-align:left;border:none;">Residential Address</th>
+            </tr>
+        </table>
+        <textarea name="Address" id="Address" cols="202" rows="3"></textarea>
+        <label for="Payment">Payment Details:
+            <input type="radio" name="Payment" id="Payment" value="Cash" />Cash
+            <input type="radio" name="Payment" id="Payment" value="Check" />Check
+            <input type="radio" name="Payemnt" id="Payment" value="Card" />Card
+        </label>
+        <fieldset>
+        <p style="background-color:blue;"><a href="terms" >Terms and Conditons</a></p>
+        <ol>
+            <li>1. I/use certify that the above information provided by me/us i correct.</li>
+            <li>I undertake to submit all the document in original for verification.</li>
+        </ol>
+        </fieldset><br>
+        <p style="text-align:right; text-decoration:overline">Signature and Date</p>
+
+        
+
+        
+    </form>
+
+</body>
+</html>
